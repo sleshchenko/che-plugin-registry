@@ -1,0 +1,8 @@
+id: go-sidecar
+version: 0.0.1
+type: Che Plugin
+name: Go Sidecar
+title: Go Sidecar
+description: Go Sidecar
+icon: https://img.icons8.com/color/1600/golang.png
+url: http://che-plugin-registry-eclipse-che.192.168.0.108.nip.codenvy-stg.com/plugins/go-sidecar/0.0.1/che-plugin.tar.gz

@@ -1,0 +1,8 @@
+containers:
+ - name: go-sidecar
+   image: sleshchenko/go
+   editor-commands:
+     - name: "go-build"
+       command:
+         - "go"
+         - "build"
