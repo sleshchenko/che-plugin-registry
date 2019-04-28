@@ -6,7 +6,7 @@ displayName: Typescript
 title: Typescript language features
 description: Typescript language features
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
-url: https://github.com/che-incubator/ms-code.typescript/releases/download/v1.30.2/che-typescript-language.vsix
+url: http://che-plugin-registry-che.192.168.99.100.nip.io/binaries/che-incubator/typescript/1.30.2/che-typescript-language.vsix
 repository: https://github.com/Microsoft/vscode
 category: Language
 firstPublicationDate: "2019-02-19"

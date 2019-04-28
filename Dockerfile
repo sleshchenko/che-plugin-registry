@@ -12,6 +12,7 @@ COPY .htaccess README.md *.sh /build/
 COPY /plugins /build/plugins
 COPY /v2 /build/v2
 COPY /v3 /build/v3
+COPY /binaries /build/binaries
 WORKDIR /build/
 RUN ./check_plugins_location_v1.sh
 RUN ./check_plugins_location_v2.sh v2
