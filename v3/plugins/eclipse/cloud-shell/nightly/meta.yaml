@@ -5,16 +5,16 @@ version: nightly
 type: Che Editor
 displayName: Cloud Shell Service
 title: Cloud Shell Plugin
-description: Cloud Shell Plugin discover ability to use terminal widget instead of text editor.
+description: Cloud Shell Plugin discover ability to use terminal instead of text editor.
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 repository: https://github.com/eclipse/che-machine-exec/
-firstPublicationDate: "2019-12-17"
+firstPublicationDate: "2019-12-12"
 category: Other
 spec:
   endpoints:
    -  name: cloud-shell
       public: true
-      targetPort: 5555
+      targetPort: 4444
       attributes:
         protocol: http
         path: "/static"
@@ -24,6 +24,6 @@ spec:
         cookiesAuthEnabled: false
   containers:
    - name: che-machine-exec
-     image: "eclipse/che-machine-exec:nightly"
+     image: "aandrienko/che-machine-exec:cloud-shell"
      ports:
-       - exposedPort: 5555
+       - exposedPort: 4444
